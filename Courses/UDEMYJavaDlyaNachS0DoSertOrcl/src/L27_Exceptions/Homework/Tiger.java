@@ -1,4 +1,4 @@
-package Lesson28.Homework;
+package L27_Exceptions.Homework;
 
 public class Tiger {
     String tigerFood = "meat";
