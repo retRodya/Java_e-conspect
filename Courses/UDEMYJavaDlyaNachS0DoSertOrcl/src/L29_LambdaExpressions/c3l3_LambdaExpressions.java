@@ -25,7 +25,7 @@ class Student3 {
 
 class PrintStudentInfo3 {
 
-    void printStudentInfo3(Student3 s3) {
+    void printStudentInfo3(Student5 s3) {
         System.out.println("Name: " + s3.name);
         System.out.println("Age: " + s3.age);
         System.out.println("Sex: " + s3.sex);
@@ -33,8 +33,8 @@ class PrintStudentInfo3 {
         System.out.println("Average grade: " + s3.avgGrade);
     }
 
-    void testStudents(ArrayList<Student3> sal3, StudentChecks sc) {
-        for (Student3 s3 : sal3) {
+    void testStudents(ArrayList<Student5> sal3, StudentChecks sc) {
+        for (Student5 s3 : sal3) {
             if (sc.test(s3)) {
                 printStudentInfo3(s3);
             }
@@ -44,14 +44,14 @@ class PrintStudentInfo3 {
     public static void main(String[] args) {
 
         // Create students
-        Student3 s3 = new Student3("Ivan", 'M', 18, 1, 8.1);
-        Student3 s31 = new Student3("Stanislav", 'M', 18, 2, 9.1);
-        Student3 s32 = new Student3("Ekaterine", 'F', 20, 3, 10);
-        Student3 s33 = new Student3("Ilya", 'M', 19, 3, 10);
-        Student3 s34 = new Student3("Mark", 'M', 20, 1, 10);
-        Student3 s35 = new Student3("Hanna", 'F', 18, 1, 8.5);
+        Student5 s3 = new Student5("Ivan", 'M', 18, 1, 8.1);
+        Student5 s31 = new Student5("Stanislav", 'M', 18, 2, 9.1);
+        Student5 s32 = new Student5("Ekaterine", 'F', 20, 3, 10);
+        Student5 s33 = new Student5("Ilya", 'M', 19, 3, 10);
+        Student5 s34 = new Student5("Mark", 'M', 20, 1, 10);
+        Student5 s35 = new Student5("Hanna", 'F', 18, 1, 8.5);
 
-        ArrayList<Student3> sal3 = new ArrayList<>();
+        ArrayList<Student5> sal3 = new ArrayList<>();
 
         sal3.add(s3);
         sal3.add(s31);
@@ -73,5 +73,5 @@ class PrintStudentInfo3 {
 }
 
 interface StudentChecks {
-    boolean test(Student3 st3);
+    boolean test(Student5 st3);
 }
