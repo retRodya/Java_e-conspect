@@ -1,4 +1,4 @@
-public class Q4_JavaMainFeatures {
+public class Q04_JavaMainFeatures {
     /**
      * 1. Platform independents
      * 2. Object-oriented

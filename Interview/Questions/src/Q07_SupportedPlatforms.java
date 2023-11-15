@@ -1,4 +1,4 @@
-public class Q7_SupportedPlatforms {
+public class Q07_SupportedPlatforms {
     /**
      * Windows
      * Android

@@ -1,4 +1,4 @@
-public class Q8_OverloadingOverriding {
+public class Q08_OverloadingOverriding {
     /**
      * Method overloading possibility to create methods w/ same names,
      * but different parameters.

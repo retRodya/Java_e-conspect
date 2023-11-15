@@ -1,4 +1,4 @@
-public class Q2_JDKJREJVM {
+public class Q02_JDKJREJVM {
     /**
      * JDK - Java developer kit - instruments for java
      * application development. Includes javac, standard java

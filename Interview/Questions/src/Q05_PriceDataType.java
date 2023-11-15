@@ -1,4 +1,4 @@
-public class Q5_PriceDataType {
+public class Q05_PriceDataType {
     /**
      * Data types for price:
      *  1. BigDecimal (if memory is not a concern)

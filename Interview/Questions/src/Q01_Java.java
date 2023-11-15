@@ -1,4 +1,4 @@
-public class Q1_Java {
+public class Q01_Java {
     /**
      * Java is a object-oriented programming language developed by
      * Sun Microsystems. It is known for its platform independence
