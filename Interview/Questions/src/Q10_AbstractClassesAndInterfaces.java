@@ -1,5 +1,10 @@
 public class Q10_AbstractClassesAndInterfaces {
     /**
+     * Abstract class is designed with
+     * implementation gaps for subclasses
+     * to fill in and deliberately incomplete.
+     * Object of abstract class can't be real
+     * relatively to real life.
      * Abstract classes can have constructors,
      * fields and methods. While interfaces
      * only defines method signature.
