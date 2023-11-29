@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Learn Git in Intellij/Learn Git in Intellij.iml" filepath="$PROJECT_DIR$/Learn Git in Intellij/Learn Git in Intellij.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pre-Junior.iml" filepath="$PROJECT_DIR$/Pre-Junior.iml" />
     </modules>
   </component>
