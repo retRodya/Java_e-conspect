@@ -2,12 +2,14 @@
  * Number of month given. Show month name.
  */
 public class MonthNumber_Switch {
-    static int monthNumber;
+    static int number;
 
     public static void main(String[] args) {
-        monthNumber = 12;
-
-        switch (monthNumber) {
+        number = 12;
+        monthNumber();
+    }
+    static void monthNumber () {
+        switch (number) {
             case 1 -> System.out.println("January");
             case 2 -> System.out.println("February");
             case 3 -> System.out.println("March");
