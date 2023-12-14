@@ -1,7 +1,7 @@
-package L29_LambdaExpressions;
+package L29_LambdaExpressions_1;
 
 public class c4l4_ {
-    static void def(L29_LambdaExpressions.TestClass t) {
+    static void def(L29_LambdaExpressions_1.TestClass t) {
         System.out.println(t.abc("Hello!"));
     }
 
@@ -17,6 +17,6 @@ public class c4l4_ {
     }
 }
 
-interface Test5 {
+interface Test5_1 {
     int abc(String s);
 }
