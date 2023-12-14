@@ -1,7 +1,7 @@
 package L29_LambdaExpressions;
 
 public class c4l4_ShortLambdaExpression {
-    static void def(Test5 t) {
+    static void def(L29_LambdaExpressions.TestClass t) {
         System.out.println(t.abc("Hello!"));
     }
 
@@ -17,6 +17,6 @@ public class c4l4_ShortLambdaExpression {
     }
 }
 
-interface Test5 {
+interface TestClass {
     int abc(String s);
 }
