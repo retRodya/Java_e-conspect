@@ -1,4 +1,4 @@
-package L08_Composition;
+package L01_08_Composition;
 
 public class c6l1_SecondsTotal {
     private int value;

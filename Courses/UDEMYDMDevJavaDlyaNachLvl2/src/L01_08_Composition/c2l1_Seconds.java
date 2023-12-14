@@ -1,4 +1,4 @@
-package L08_Composition;
+package L01_08_Composition;
 
 public class c2l1_Seconds {
     private int value;

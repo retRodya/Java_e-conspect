@@ -1,4 +1,4 @@
-package L08_Composition;
+package L01_08_Composition;
 
 /**
  * Create class,that describes a period of time.

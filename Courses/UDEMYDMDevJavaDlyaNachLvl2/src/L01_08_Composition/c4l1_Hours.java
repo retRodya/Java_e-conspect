@@ -1,4 +1,4 @@
-package L08_Composition;
+package L01_08_Composition;
 
 public class c4l1_Hours {
     private int value;
