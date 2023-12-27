@@ -1,4 +1,4 @@
-package L05_01_OOP_Encapsulation;
+package L05_01_OOP_Encapsulation_and_Polymorphism;
 
 public class c2l5_Ssd {
 

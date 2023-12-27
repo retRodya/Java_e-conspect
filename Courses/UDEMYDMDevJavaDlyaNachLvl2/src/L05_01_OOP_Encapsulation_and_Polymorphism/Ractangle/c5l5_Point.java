@@ -1,4 +1,4 @@
-package L05_01_OOP_Encapsulation.Ractangle;
+package L05_01_OOP_Encapsulation_and_Polymorphism.Ractangle;
 
 public class c5l5_Point {
     private int x;
