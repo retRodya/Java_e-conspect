@@ -10,7 +10,8 @@ public abstract class c1l12_Hero {
     }
 
     public abstract void attackEnemy(c4l12_Enemy enemy);
-    public String getName()  {
+
+    public String getName() {
         return name;
     }
 
