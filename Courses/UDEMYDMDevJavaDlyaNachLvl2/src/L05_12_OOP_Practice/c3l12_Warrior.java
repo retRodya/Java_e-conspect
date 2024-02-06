@@ -1,6 +1,8 @@
 package L05_12_OOP_Practice;
 
-public class c3l12_Warrior extends c1l12_Hero {
+import L06_02_Generics_Theory.Weapon.c1l2_Axe;
+
+public class c3l12_Warrior<T extends c1l2_Axe> extends c1l12_Hero<T> {
 
     public c3l12_Warrior(String name, int damage) {
         super(name, damage);

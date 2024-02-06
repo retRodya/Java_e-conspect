@@ -1,8 +1,10 @@
 package L05_12_OOP_Practice;
 
+import L06_02_Generics_Theory.Weapon.i3l2_RangeWeapon;
+
 import java.util.Random;
 
-public class c3l12_Archer extends c1l12_Hero {
+public class c3l12_Archer<T extends i3l2_RangeWeapon> extends c1l12_Hero <T>{
 
     public c3l12_Archer(String name, int damage) {
         super(name, damage);
