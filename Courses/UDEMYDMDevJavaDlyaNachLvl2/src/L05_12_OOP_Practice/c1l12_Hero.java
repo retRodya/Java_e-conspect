@@ -4,7 +4,6 @@ public abstract class c1l12_Hero<T> {
     private String name;
     private int damage;
 
-
     private T weapon;
 
     public c1l12_Hero(String name, int damage) {
