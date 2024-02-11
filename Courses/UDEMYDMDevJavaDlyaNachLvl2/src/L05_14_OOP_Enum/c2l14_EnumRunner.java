@@ -21,7 +21,6 @@ public class c2l14_EnumRunner {
 
         System.out.println(processorType.getDescription());
         System.out.println(e1l14_ProcessorType.BIT_64.getDescription());
+        System.out.println();
     }
-
-
 }
