@@ -6,9 +6,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Abstract classes and Interfaces" isTestSource="false" packagePrefix="Lesson24.Homework" />
       <sourceFolder url="file://$MODULE_DIR$/Exceptions" isTestSource="false" packagePrefix="Lesson28.Homework" />
       <sourceFolder url="file://$MODULE_DIR$/instanceof and casting" isTestSource="false" packagePrefix="Lesson25.Homework" />
-      <sourceFolder url="file://$MODULE_DIR$/Tasks/src" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/Courses" />
-      <excludeFolder url="file://$MODULE_DIR$/Interview" />
+      <sourceFolder url="file://$MODULE_DIR$/Courses/UDEMYJavaDlyaNachS0DoSertOrcl/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Courses/UDEMYDMDevJavaDlyaNachLvl1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Courses/UDEMYDMDevJavaDlyaNachLvl2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
