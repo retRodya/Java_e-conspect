@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Courses/UDEMYDMDevJavaDlyaNachLvl1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Courses/UDEMYDMDevJavaDlyaNachLvl2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Tasks/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
