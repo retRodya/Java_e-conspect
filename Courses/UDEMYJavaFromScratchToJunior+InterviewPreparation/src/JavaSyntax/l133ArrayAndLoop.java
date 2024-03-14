@@ -15,7 +15,6 @@ public class l133ArrayAndLoop {
         for (int i = 0, j = array1.length-1; i < array1.length ; i++, j--) {
             array2[i] = array1[j];
             System.out.println(i + " : " + array2[i]);
-
         }
     }
 }
