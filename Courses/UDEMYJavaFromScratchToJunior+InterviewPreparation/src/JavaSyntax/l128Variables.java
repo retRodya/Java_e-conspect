@@ -47,9 +47,7 @@ public class l128Variables {
     }
 
     public static void main(String[] args) {
-
         secondsIntoDaysHoursMinutesSeconds();
-
         DaysHoursMinutesSecondsInSeconds();
     }
 }
