@@ -1,4 +1,4 @@
-package JavaSyntax.l146;
+package JavaSyntax.l146Inheritance;
 
 public class BoxWeight extends Box {
     private double weight;

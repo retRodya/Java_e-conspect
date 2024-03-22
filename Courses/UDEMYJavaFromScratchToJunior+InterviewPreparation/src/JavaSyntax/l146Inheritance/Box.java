@@ -1,4 +1,4 @@
-package JavaSyntax.l146;
+package JavaSyntax.l146Inheritance;
 public class Box {
     double width;
     double height;
