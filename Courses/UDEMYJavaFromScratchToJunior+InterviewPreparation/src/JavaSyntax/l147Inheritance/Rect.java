@@ -1,6 +1,6 @@
 package JavaSyntax.l147Inheritance;
 
-public class Rect extends Figure {
+public class Rect extends Figure implements To {
 
     public Rect(double a, double b) {
         super(a, b);
@@ -18,5 +18,10 @@ public class Rect extends Figure {
     @Override
     double getSquare(double a, double b) {
         return super.getSquare(a, b);
+    }
+
+    @Override
+    public void to() {
+        System.out.println("Recting");
     }
 }

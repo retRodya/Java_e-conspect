@@ -1,6 +1,6 @@
 package JavaSyntax.l147Inheritance;
 
-public class Triangle extends Figure {
+public class Triangle extends Figure implements To {
 
     protected double c;
 
@@ -32,5 +32,10 @@ public class Triangle extends Figure {
         this.c = c;
         double p = (a + b + c) / 2;
         return Math.sqrt(p * (p - a) * (p - b) * (p - c));
+    }
+
+    @Override
+    public void to() {
+        System.out.println("Triangling");
     }
 }

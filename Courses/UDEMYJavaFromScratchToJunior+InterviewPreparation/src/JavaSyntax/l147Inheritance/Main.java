@@ -1,5 +1,7 @@
 package JavaSyntax.l147Inheritance;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         Rect rect = new Rect(5);
@@ -13,5 +15,18 @@ public class Main {
 
         System.out.println(triangle.getSquare(triangle.getA()));
         System.out.println(triangle1.getSquare(triangle1.getA(), triangle1.getB(), triangle1.getC()));
+
+        ArrayList<To> figures = new ArrayList<>();
+        figures.add(rect);
+        figures.add(triangle);
+        for (To figure : figures) {
+            figure.to();
+        }
+
+        Rect rect2 = new Rect(1);
+        To to = rect2;
+        rect2 = (Rect) to;
     }
+
+
 }
