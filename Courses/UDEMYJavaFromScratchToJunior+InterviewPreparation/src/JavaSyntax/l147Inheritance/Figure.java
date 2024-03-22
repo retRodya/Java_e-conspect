@@ -1,10 +1,10 @@
 package JavaSyntax.l147Inheritance;
 
-public class Figure {
+public abstract class Figure {
     protected double a;
     protected double b;
 
-    public double getA() {
+    public final double getA() {
         return a;
     }
 
@@ -12,7 +12,7 @@ public class Figure {
         this.a = a;
     }
 
-    public double getB() {
+    public final double getB() {
         return b;
     }
 
@@ -29,6 +29,7 @@ public class Figure {
         this.a = a;
         return a * a;
     }
+
     double getSquare(double a, double b) {
         this.a = a;
         this.b = b;
