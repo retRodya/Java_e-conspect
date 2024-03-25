@@ -27,6 +27,4 @@ public class Main {
         To to = rect2;
         rect2 = (Rect) to;
     }
-
-
 }
