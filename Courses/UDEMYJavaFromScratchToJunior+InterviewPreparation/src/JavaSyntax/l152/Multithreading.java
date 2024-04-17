@@ -35,7 +35,6 @@ public class Multithreading {
                 }
             }
         });
-
         System.out.println(randomInt);
         timer.start();
         guessRandomInt.start();

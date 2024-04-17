@@ -12,6 +12,7 @@ public class Exception {
         arrayList.add(3);
 
         try {
+            gav();
             System.out.println(arrayList.get(2));
         } catch (IndexOutOfBoundsException e) {
             System.out.println("Gotcha");
@@ -19,4 +20,8 @@ public class Exception {
             System.out.println("Finally, some good fkn food");
         }
     }
+    static void gav(){
+        System.out.println("gav");
+    }
+
 }
